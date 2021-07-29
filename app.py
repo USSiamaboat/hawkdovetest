@@ -147,7 +147,7 @@ def game():
             break
         proportion_dove.append(dove_log[i]/total)
     with info:
-        st.table(pd.DataFrame([
+        st.write(pd.DataFrame([
             range(len(proportion_dove)),
             proportion_dove
         ]))
