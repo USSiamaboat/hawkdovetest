@@ -5,9 +5,7 @@ import random
 import pandas as pd
 import matplotlib.pyplot as plt
 
-@st.cache
-def once():
-    st.set_page_config(layout='wide')
+st.set_page_config(layout='wide')
 
 options, info = st.beta_columns([1, 3])
 
